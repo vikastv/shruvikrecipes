@@ -8,11 +8,10 @@ group :assets do
   gem 'uglifier', '>= 1.3.0'
 end
 
-
-
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'foreman'
+gem 'unicorn'
 gem 'pg'
 gem 'jquery-rails'
 
