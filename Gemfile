@@ -6,6 +6,9 @@ group :assets do
   gem 'sass-rails', '~> 4.0.0'
   gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier', '>= 1.3.0'
+  gem 'therubyracer'
+  gem 'less-rails'
+  gem 'twitter-bootstrap-rails'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -14,6 +17,8 @@ gem 'foreman'
 gem 'unicorn'
 gem 'pg'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
 
 group :development do
  gem 'better_errors'
